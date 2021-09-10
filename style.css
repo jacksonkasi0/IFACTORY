@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Open+Sans+Condensed:wght@300&family=Ruthie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  color: white;
+}
+
+.letter__style::first-letter {
+  font-size: 100px;
+  font-family: "Ruthie", cursive;
+}
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
+}
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.col__inner1 {
+  z-index: 1;
+  margin-top: 20px;
+  transform: skewY(3deg);
+  width: 60%;
+  margin: auto 20% auto auto;
+}
+
+.col__inner2 {
+  z-index: 10;
+  margin-top: 20px;
+  transform: skewY(3deg);
+  width: 60%;
+  margin: auto auto auto 35%;
+  position: absolute;
+}
+
+.bg {
+  height: 500px;
+  width: 100%;
+  margin-top: -35px;
+  transform: skewY(-3deg);
+  display: grid;
+  background: no-repeat center;
+  background-size: cover;
+}
+.bg::after {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* ----------------------------- box 1 ------------------------- */
+
+.col1 {
+  background-color: #1f1627;
+  height: 620px;
+  width: 100%;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  text-align: center;
+  align-items: center;
+  line-height: 90px;
+  letter-spacing: 13px;
+  overflow: auto;
+}
+
+.col1 h1 {
+  color: rgb(235, 213, 216);
+}
+
+.title__1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 4px rgba(180, 162, 179, 0.24);
+  font-weight: 200;
+}
+
+.col1__ {
+  margin-top: 130px;
+}
+
+/*  ------------------------- box 2 ------------------------------ */
+
+.col2 {
+
+  background: url(https://bit.ly/2Xb7ibT);
+
+}
+.col2::after {
+
+  background-color: #eed8d3a1;
+}
+
+
+
+.col2-h1{
+  display: inline-block;
+  color: #1f1627;
+  line-height: 10px;
+}
+
+.col2 .title__2line {
+  margin-left: 65px;
+}
+
+.col2 p {
+  color: #464349;
+}
+
+/*  ------------------------- box 3 ------------------------------ */
+
+.col3 {
+  background: url(https://bit.ly/2Xb7ibT);
+}
+
+.col3::after {
+  background-color: #0000005e;
+}
+
+.col3 h1 {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 0px;
+}
+
+.col3 .title__2line {
+  margin-left: 62px;
+}
+
+.col3 p {
+  color: #ffffff;
+}
+
+/*  ------------------------- box 4 ------------------------------ */
+
+.col4 {
+  background: url(https://bit.ly/38Y93LG);
+}
+
+.col4::after {
+  background-color: #eed8d3a1;
+}
+
+.col4 h1 {
+  display: inline-block;
+  color: #1f1627;
+  line-height: 0;
+}
+
+.col4 .title__2line {
+  margin-left: 65px;
+}
+
+.col4 p {
+  color: #464349;
+}
+
+/*  ------------------------- box 5 ------------------------------ */
+
+.col5 {
+  background: url(https://bit.ly/3AeQ0sR);
+}
+
+.col5::after {
+  background-color: #0000005e;
+}
+
+.col5 h1 {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 0px;
+}
+
+.col5 .title__2line {
+  margin-left: 90px;
+}
+.col5 p {
+  color: #ffffff;
+}
+
+/*  ------------------------- box 6 ------------------------------ */
+
+.col6 {
+  background: url(https://bit.ly/3tx44ek);
+}
+
+.col6::after {
+  background-color: #eed8d3a1;
+}
+
+.col6 h1 {
+  display: inline-block;
+  color: #1f1627;
+  line-height: 0;
+}
+
+.col6 .title__2line {
+  margin-left: 65px;
+}
+
+.col6 p {
+  color: #464349;
+}
+
+/*  ------------------------- box 7 ------------------------------ */
+
+.col7 {
+  background: url(https://bit.ly/3k1v6r6);
+}
+
+.col7::after {
+  background-color: #0000005e;
+}
+
+.col7 h1
+ {
+  display: inline-block;
+  color: rgb(255, 190, 201);
+
+  line-height: 10px;
+}
+.col7 
+h2 {
+  line-height: 10px;
+  display: inline-block;
+
+  color: rgb(248, 248, 248);
+
+}
+
+.col7 .title__2line {
+  margin-left: 65px;
+}
+
+.col7 p {
+  color: #464349;
+
+}
+
+
+/*  ------------------------- box 8 ------------------------------ */
+
+.col8 {
+  background: url(https://bit.ly/3tt3L4m);
+}
+
+.col8::after {
+  background-color: #eed8d3a1;
+}
+
+.col8 h1 {
+  color: #1f1627;
+}
+
+
+.col8 p {
+  color: #464349;
+}
+
+
+
+/*  ------------------------- box 9 ------------------------------ */
+
+.col9 {
+  background: url(https://bit.ly/3l5pjA8);
+}
+
+.col9::after {
+  background-color: #eed8d30e;
+}
+
+.col9 h1 {
+  color: rgb(248, 248, 248);
+
+}
+
+
+.col9 p {
+  color: #c9c9c9;
+}
+
+/*  ------------------------- box Bottom ------------------------------ */
+
+.bottom{
+  height: 300px;
+  width: 100%;
+}
+.bottom  h1{
+  line-height: normal;
+}
+
+.bottom::after {
+  background-color: #99c7e5;
+}
+
+.bottom a{
+  text-decoration: none;
+  color: lightslategray;
+}
+
+.bottom > table{
+  width: 80%;
+  margin: 80px auto ;
+}
+
+/*  footer  */
+
+footer{
+  width: 100%;
+  height: 60px;
+  margin-top: 80px;
+  background-color: lightyellow;
+}
+
+footer table {
+  width: 80%;;
+margin: auto;
+color: lightslategrey;;
+}

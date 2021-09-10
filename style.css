@@ -1,11 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Open+Sans+Condensed:wght@300&family=Ruthie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
 
-body {
+html, body {
   padding: 0;
   margin: 0;
+
 }
 
+.fa-podcast{
+  color: gold; text-shadow: 0 2px 10px red; 
+  transition: 0.5s;
+}
+.fa-podcast:hover{
+  color: rgb(217, 255, 0);
+  text-shadow: 0 7px 10px red; 
+  transform: scale(1.4);
+}
 i {
   color: white;
 }
@@ -23,18 +35,18 @@ p {
 }
 
 .col__inner1 {
-  z-index: 1;
+  z-index: -1;
   margin-top: 20px;
   transform: skewY(3deg);
-  width: 60%;
+  width: 55%;
   margin: auto 20% auto auto;
 }
 
 .col__inner2 {
-  z-index: 10;
+  z-index: -1;
   margin-top: 20px;
   transform: skewY(3deg);
-  width: 60%;
+  width: 55%;
   margin: auto auto auto 35%;
   position: absolute;
 }
@@ -42,7 +54,7 @@ p {
 .bg {
   height: 500px;
   width: 100%;
-  margin-top: -35px;
+  margin-top: -39px;
   transform: skewY(-3deg);
   display: grid;
   background: no-repeat center;
@@ -90,18 +102,13 @@ p {
 /*  ------------------------- box 2 ------------------------------ */
 
 .col2 {
-
   background: url(https://bit.ly/2Xb7ibT);
-
 }
 .col2::after {
-
   background-color: #eed8d3a1;
 }
 
-
-
-.col2-h1{
+.col2-h1 {
   display: inline-block;
   color: #1f1627;
   line-height: 10px;
@@ -118,7 +125,7 @@ p {
 /*  ------------------------- box 3 ------------------------------ */
 
 .col3 {
-  background: url(https://bit.ly/2Xb7ibT);
+  background: url(https://wallpapercave.com/uwp/uwp1276497.jpeg);
 }
 
 .col3::after {
@@ -220,20 +227,17 @@ p {
   background-color: #0000005e;
 }
 
-.col7 h1
- {
+.col7 h1 {
   display: inline-block;
   color: rgb(255, 190, 201);
 
   line-height: 10px;
 }
-.col7 
-h2 {
+.col7 h2 {
   line-height: 10px;
   display: inline-block;
 
   color: rgb(248, 248, 248);
-
 }
 
 .col7 .title__2line {
@@ -242,9 +246,7 @@ h2 {
 
 .col7 p {
   color: #464349;
-
 }
-
 
 /*  ------------------------- box 8 ------------------------------ */
 
@@ -260,12 +262,9 @@ h2 {
   color: #1f1627;
 }
 
-
 .col8 p {
   color: #464349;
 }
-
-
 
 /*  ------------------------- box 9 ------------------------------ */
 
@@ -279,9 +278,7 @@ h2 {
 
 .col9 h1 {
   color: rgb(248, 248, 248);
-
 }
-
 
 .col9 p {
   color: #c9c9c9;
@@ -289,39 +286,71 @@ h2 {
 
 /*  ------------------------- box Bottom ------------------------------ */
 
-.bottom{
-  height: 300px;
+.bottom {
+  height: 500px;
   width: 100%;
-}
-.bottom  h1{
-  line-height: normal;
-}
-
-.bottom::after {
-  background-color: #99c7e5;
+  margin-top: -35px;
+  transform: skewY(-3deg);
+  display: grid;
+  background: rgb(224, 237, 255);
 }
 
-.bottom a{
+
+.bottom a {
   text-decoration: none;
-  color: lightslategray;
+  color: rgb(102, 102, 102);
+
 }
 
-.bottom > table{
-  width: 80%;
-  margin: 80px auto ;
+.bottom > table {
+  width: 85%;
+  margin: 80px auto;
+  margin-top: 50px;
+  transform: skewY(3deg);
+
+}
+.bottom > table h2,
+h3 {
+  color: rgb(131, 130, 130);
+  font-family: "PT Sans", sans-serif;
+  
 }
 
-/*  footer  */
+.bottom > table h2 {
+  margin-top: 70px;
+  display: grid;
 
-footer{
+}
+
+.bottom > table h1 {
+  text-align: end;
+  margin-top: 0;
+  font-family: "Nova Square", cursive;
+
+}
+
+.bottom > table p {
+  text-align: end;
+
+}
+
+/* -----------------  footer ---------------  */
+
+footer {
+  z-index: 100;
   width: 100%;
-  height: 60px;
-  margin-top: 80px;
-  background-color: lightyellow;
+  height: 80px;
+  margin-top: -35px;
+  background-color: rgb(255, 211, 170);
+  transform: skewY(0deg);
 }
 
 footer table {
-  width: 80%;;
-margin: auto;
-color: lightslategrey;;
+  width: 83%;
+  margin: auto;
+}
+
+footer h3{
+  color: rgb(255, 255, 255);
+
 }
